@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://wallpapers.com/images/hd/bearish-stock-market-h7j5141cg4jjmdwa.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        /* Overlay for readability */
+        .overlay {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background: #007bff;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #0056b3;
+            transform: scale(1.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #00d1b2;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #ffdd57;
+        }
+
+        .section {
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        .section p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #dcdcdc;
+        }
+
+        button {
+            padding: 10px;
+            background: #ff5722;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        button:hover {
+            background: #e64a19;
+            transform: scale(1.05);
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cta button {
+            background: #28a745;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            color: #f5f5f5;
+            margin-top: 30px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .section {
+                padding: 15px;
+            }
+
+            nav a {
+                padding: 10px;
+                margin: 0 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="section">
+            <h1>About The Stocks</h1>
+            <p>Welcome to your gateway to financial literacy and market insights. Explore the tools and techniques to excel in the world of trading and investments.</p>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="section">
+            <h2>Benefits of Stock Market Investment</h2>
+            <img src="https://lh5.googleusercontent.com/18314g0ag-CIlJVoFZY8j5eXpeP-VVE1br7UrEDK_0Hbp-w4F7T6_nLzYrfKQl301MucEOhXBPmV5c76q1YgRFaPBBIHFslJtA64WDFD_ExFXcaDTRQoo88yHT4eDcVaHaXctcW_VYzqZSuO4Q" alt="Benefits of Investment">
+            <p>Stock market investment offers potential for wealth creation, portfolio diversification, and financial growth over the long term.</p>
+        </div>
+
+        <!-- How to Pick Stocks Section -->
+        <div class="section">
+            <h2>How to Pick the Best Stocks to Invest</h2>
+            <img src="pick.png" alt="How to Pick Stocks">
+            <p>Analyze market trends, evaluate company performance, and leverage both fundamental and technical analysis to identify potential stocks.</p>
+        </div>
+
+        <!-- Analysis Section -->
+        <div class="section">
+            <h2>Fundamental vs Technical Analysis</h2>
+            <img src="technical.png" alt="Analysis Comparison">
+            <p>While fundamental analysis focuses on company value and economic factors, technical analysis evaluates price trends and patterns.</p>
+        </div>
+
+        <!-- Types of Trading Section -->
+        <div class="section">
+            <h2>Types of Trading</h2>
+            <ul>
+                <li><strong>Position Trading:</strong> Long-term strategy with low trading activity.</li>
+                <li><strong>Swing Trading:</strong> Medium-term strategy targeting price swings.</li>
+                <li><strong>Day Trading:</strong> Short-term strategy executed within a single day.</li>
+                <li><strong>Scalping:</strong> Ultra-short-term trading for quick profits.</li>
+            </ul>
+            <img src="type.png" alt="Types of Trading">
+        </div>
+
+        <!-- Patterns Section -->
+        <div class="section">
+            <h2>Trading Patterns</h2>
+            <img src="pattern.png" alt="Trading Patterns">
+            <p>Recognize market patterns such as head and shoulders, double tops, and pennants to enhance your trading strategies.</p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta">
+            <h2>Ready to Dive Into Trading?</h2>
+            <button><a href="contact.html">Contact Us</a></button>
+            <button><a href="login.html">Start Trading</a></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Trading Insights. All Rights Reserved. Follow us on <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+    </footer>
+</body>
+
+</html>
